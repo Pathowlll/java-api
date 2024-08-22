@@ -9,7 +9,7 @@ ARG DB_HOST
 ARG DB_NAME
 ARG DB_USERNAME
 ARG DB_PASSWORD
-ENV DB_HOST ${jdbc:mysql://academy2020.cpc8rvmbbd9k.eu-west-2.rds.amazonaws.com/}
-ENV DB_NAME ${employee_PatrykP}
-ENV DB_USERNAME ${PatrykP}
-ENV DB_PASSWORD ${Personifikacja123!}
+ENV DB_HOST ${DB_HOST}
+ENV DB_NAME ${DB_NAME}
+ENV DB_USERNAME ${DB_USERNAME}
+ENV DB_PASSWORD ${DB_PASSWORD}
